@@ -51,7 +51,25 @@ FragMAXlib is formulated via in-house fragment collection of FragMAX. FragMAXlib
 | Num. H-bonds don. | 0                 | 2                 | 0.9               |
 | Num. rot. bonds   | 0                 | 3                 | 1                 |
 
-Library definitions CSV. ![Download here](https://raw.githubusercontent.com/FragMAX/fragmax.github.io/master/assets/lib/FragMAXlib.csv)
-_yay_
+[Library definitions CSV](https://lu.box.com/shared/static/6bcl87ou41bhuy9b1xd6fxht7gm2586z.csv)
 
-[back](./)
+
+**Frag Xtal Screen**
+
+Frag Xtal Screen is a commercially available fragment library. Fragments are formulated in a solid form, allowing to perform screening experiment even if a crystal system does not tolerate organic co-solvents, e.g. DMSO. The library consists of 96 fragment-alike compounds and crystallization additives.
+
+Library description at Jena Bioscience website
+Huschmann et al. 2016. “Structures of endothiapepsin-fragment complexes from crystallographic fragment screening using a novel, diverse and affordable 96-compound fragment library”
+[Library definitions CSV](https://lu.box.com/shared/static/yxh1wfs06tpjcpmor895jqje6fpn6mw9.csv)
+ 
+
+**F2X-Entry**
+
+From the F2X-Universal library we made a sub-selection creating a 96 fragment screen that is still maximally diverse and that we provide in ready-to-use plates to the users. So screens can be carried out on-site or in the user’s home lab. This screen has currently been validated with several test cases and showed high hit rates (~20% on average, 6 campaigns). Further campaigns are ongoing.
+
+Wollenhaupt & Metz et al. 2020. F2X-Universal and F2X-Entry: Structurally Diverse Compound Libraries for Crystallographic Fragment Screening
+[Library definitions CSV](https://lu.box.com/shared/static/mxdmazlg417jtmezforzg23t8udh7exm.csv)
+
+
+
+
