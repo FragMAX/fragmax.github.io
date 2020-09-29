@@ -26,6 +26,7 @@ If you don't have any projects yet, this will be your landing page
 | **Shifts**            | If the site you are using FragMAXapp supports it, input the visits according to local format (e.g.: MAX IV -> 20201022)      |
 | **Data Processing**   | Enable/Disable encryption mode for data processing |
 
+* * *
 
 ## Library definitions
 
@@ -78,6 +79,8 @@ From the F2X-Universal library we made a sub-selection creating a 96 fragment sc
 
 [Library definitions CSV](https://lu.box.com/shared/static/mxdmazlg417jtmezforzg23t8udh7exm.csv)
 
+* * *
+
 ## FragMAX naming template
 
 FragMAXapp will look for data in the user's directory matching the following criteria
@@ -105,3 +108,45 @@ Examples:
 | **Wrong** | PrtK_XtalFragScreen.A01 |
 |           | PrtK XtalFragScreen-A01 |
 |           | PrtKXtalFragScreenA01   |
+
+
+* * *
+
+## PDB upload
+
+![NewPDB](https://raw.githubusercontent.com/FragMAX/fragmax.github.io/master/assets/img/add-pdb.png)
+
+Under the menu
+
+* Project
+    * PDBs
+
+It is possible to add multiple PDBs to your project from your local computer.
+
+Alternatively PDB can be directly fetched from RCSB website by providing the **PDB ID**
+
+For each file uploaded, three models will be generated:
+
+1. file.pdb - The exact copy of provided PDB
+2. file_noHET.pdb - Removing HETATM tags from the PDB. The HEADER and REMARK is kept.
+3. file_txc.odb - If your uploaded file contains 2 or more chains, a _trimmer crystallographic components_ version of your file is generated using [phenix.sculpt_ensemble](https://www.phenix-online.org/documentation/reference/sculpt_ensemble.html)
+
+The models can be downloaded and/or replaced at any time during the project.
+
+* * *
+
+## Library overview
+
+![LibraryView](https://raw.githubusercontent.com/FragMAX/fragmax.github.io/master/assets/img/library-view.png)
+
+Under the menu
+
+* Project
+    * Library view
+
+FragMAXapp will display the current loaded library. Missing fragments (based on sample names and fragIDs provided) will be displayed in red until uploaded to the project. 
+
+Uploading new library can be done in two ways:
+
+1. CSV file with all definitions. This will replace all current SMILES in FragMAXapp database with the information from the CSV file.
+2. CSV file with one or more fragments. This will update or add only the fragments in the file, leaving all other unchanged.
