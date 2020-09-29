@@ -127,9 +127,13 @@ Alternatively PDB can be directly fetched from RCSB website by providing the **P
 
 For each file uploaded, three models will be generated:
 ```
-1. file.pdb - The exact copy of provided PDB
-2. file_noHET.pdb - Removing HETATM tags from the PDB. The HEADER and REMARK is kept.
-3. file_txc.odb - If your uploaded file contains 2 or more chains, a _trimmer crystallographic components_ version of your file is generated using [phenix.sculpt_ensemble](https://www.phenix-online.org/documentation/reference/sculpt_ensemble.html)
+1. file.pdb 
+    - The exact copy of provided PDB
+2. file_noHET.pdb 
+    - Removing HETATM tags from the PDB. The HEADER and REMARK is kept.
+3. file_txc.odb 
+    - If your uploaded file contains 2 or more chains, a _trimmer crystallographic components_ version of your file 
+    is generated using [phenix.sculpt_ensemble](https://www.phenix-online.org/documentation/reference/sculpt_ensemble.html)
 ```
 The models can be downloaded and/or replaced at any time during the project.
 
@@ -148,6 +152,8 @@ FragMAXapp will display the current loaded library. Missing fragments (based on 
 
 Uploading new library can be done in two ways:
 ```
-1. CSV file with all definitions. This will replace all current SMILES in FragMAXapp database with the information from the CSV file.
-2. CSV file with one or more fragments. This will update or add only the fragments in the file, leaving all other unchanged.
+1. CSV file with all definitions. 
+    - This will replace all current SMILES in FragMAXapp database with the information from the CSV file.
+2. CSV file with one or more fragments. 
+    - This will update or add only the fragments in the file, leaving all other unchanged.
 ```
