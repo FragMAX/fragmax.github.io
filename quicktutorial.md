@@ -4,6 +4,18 @@ title: FragMAXapp
 description: Project Setup and Definitions
 ---
 
+***
+
+* [Login Credentials](#login-credentials) 
+* [Project Setup](#project-setup) 
+    * [Update or remove projects](#update-or-remove-projects)
+    * [Library definitions](#library-definitions)
+        * [Standard fragment libraries definitions](#standard-fragment-libraries-definitions)
+    * [FragMAX naming template](#fragmax-naming-template)
+        * [Name restrictions](#name-restrictions)
+    * [PDB upload](#pdb-upload)
+    * [Library View](#library-view)
+
 # Login Credentials
 
 Username and password are provided by the hosting site. 
@@ -25,6 +37,19 @@ If you don't have any projects yet, this will be your landing page
 | **Proposal number**   | FragMAX project proposal number |
 | **Shifts**            | If the site you are using FragMAXapp supports it, input the visits according to local format (e.g.: MAX IV -> 20201022)      |
 | **Data Processing**   | Enable/Disable encryption mode for data processing |
+
+After providing necessary information, the project will enter the _Setting up_ mode. This mode will lock the use of the project until:
+
+* Data collection files are read and parsed to FragMAXapp database
+* CIF files are generated from input SMILES
+* Data from beamline autoprocessing is imported to FragMAXapp
+
+
+## Update or remove projects
+
+Click in the top left-hand corner of the page and then **Manage projects** in the upcoming menu. 
+
+Clicking in one of the available projects, it is possible to ammend definitions of a project or delete it. Deleting projects **will not** instantly remove the data from the disk.
 
 * * *
 
