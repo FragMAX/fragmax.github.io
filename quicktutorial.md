@@ -1,5 +1,6 @@
 ---
 layout: default
+title: FragMAXapp
 description: Quick tutorial for FragMAXapp
 ---
 
