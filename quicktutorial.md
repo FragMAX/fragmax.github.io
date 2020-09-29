@@ -1,7 +1,7 @@
 ---
 layout: default
 title: FragMAXapp
-description: Quick tutorial for FragMAXapp
+description: Project Setup and Definitions
 ---
 
 # Login Credentials
@@ -97,9 +97,11 @@ FragMAXapp will look for data in the user's directory matching the following cri
 
 Examples:
 
-| Right     | PrtK-XtalFragScreen-A01 |
+|           | Final sample name       |
+|:----------|:------------------------|
+| **Right** | PrtK-XtalFragScreen-A01 |
 |           | PrtK-XtalFragScreen-0001|
 |-----------|-------------------------|
-| Wrong     | PrtK_XtalFragScreen.A01 |
+| **Wrong** | PrtK_XtalFragScreen.A01 |
 |           | PrtK XtalFragScreen-A01 |
 |           | PrtKXtalFragScreenA01   |
