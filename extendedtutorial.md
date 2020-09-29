@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Another page
-description: This is just another page
+description: Extended tutorial for FragMAXapp
 ---
 
 ## Welcome to another page

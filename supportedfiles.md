@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Another page
-description: This is just another page
+description: FragMAXapp input file examples
 ---
 
 ## Welcome to another page
