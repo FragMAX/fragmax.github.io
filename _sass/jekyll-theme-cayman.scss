@@ -64,7 +64,7 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: #f3f6fa;
   background-color: #6e6e6e;
   border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
@@ -75,7 +75,7 @@ a {
   &:hover {
     color: #6e6e6e;
     text-decoration: none;
-    background-color: #c5c5c5;
+    background-color: #f3f6fa;
     border-color: rgba(255, 255, 255, 0.3);
   }
 
