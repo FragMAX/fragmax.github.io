@@ -19,7 +19,7 @@ If you don't have any projects yet, this will be your landing page
 
 | Field             | Expected input    |
 |:------------------|:---------------------------------------------------------------------------------|
-| **Protein**           | Protein name as declared in ISPyB/EXI                                            |
+| **Protein**           | Protein name as declared in ISPyB/EXI. [Example](#fragmax-naming-template)                                           |
 | **Library Name**      | Fragment library name as declared in ISPyB/EXI                                   |
 | **Library fragments** | CSV file containing fragments definitions. See how to create this file [HERE](#library-definitions)      |
 | **Proposal number**   | FragMAX project proposal number |
@@ -29,7 +29,7 @@ If you don't have any projects yet, this will be your landing page
 
 ## Library definitions
 
-* Your library file _must_ be in CSV format.
+* Your library file **_must_** be in CSV format.
 * Each line of your file describes one fragment as
     * fragmentID,SMILES
 
@@ -66,6 +66,7 @@ FragMAXlib is formulated via in-house fragment collection of FragMAX. FragMAXlib
 Frag Xtal Screen is a commercially available fragment library. Fragments are formulated in a solid form, allowing to perform screening experiment even if a crystal system does not tolerate organic co-solvents, e.g. DMSO. The library consists of 96 fragment-alike compounds and crystallization additives.
 
 >Huschmann et al. 2016. “Structures of endothiapepsin-fragment complexes from crystallographic fragment screening using a novel, diverse and affordable 96-compound fragment library”
+
 [Library definitions CSV](https://lu.box.com/shared/static/yxh1wfs06tpjcpmor895jqje6fpn6mw9.csv)
  
 
@@ -74,8 +75,27 @@ Frag Xtal Screen is a commercially available fragment library. Fragments are for
 From the F2X-Universal library we made a sub-selection creating a 96 fragment screen that is still maximally diverse and that we provide in ready-to-use plates to the users. So screens can be carried out on-site or in the user’s home lab. This screen has currently been validated with several test cases and showed high hit rates (~20% on average, 6 campaigns). Further campaigns are ongoing.
 
 >Wollenhaupt & Metz et al. 2020. F2X-Universal and F2X-Entry: Structurally Diverse Compound Libraries for Crystallographic Fragment Screening
+
 [Library definitions CSV](https://lu.box.com/shared/static/mxdmazlg417jtmezforzg23t8udh7exm.csv)
 
+## FragMAX naming template
 
+FragMAXapp will look for data in the user's directory matching the following criteria
 
+* ProteinName-LibraryName-FragmentID_master.h5
+* ProteinName-LibraryName-FragmentID_?????.cbf
 
+### Name restrictions
+
+| Field             | Restriction                |
+|:------------------|:---------------------------|
+| ProteinName       | ```- _ , / " " * [](){} ```|
+| LibraryName       | ```- _ , / " " * [](){} ```|
+| FragmentID        | ```- _ , / " " * [](){} ```|
+|Overall            | The final combination cannot be the same|
+
+PrtK-XtalFragScreen-A01
+{: .alert .alert-success}
+
+PrtK_XtalFragScreen.A01
+{: .alert .alert-danger}
