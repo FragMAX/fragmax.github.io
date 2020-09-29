@@ -39,7 +39,9 @@ A02b,CC1=CC(C)=NC=N1
 
 ### Standard fragment libraries definitions
 **FragMAXlib**
+
 FragMAXlib is formulated via in-house fragment collection of FragMAX. FragMAXlib is an XFS-focused library, specifically designed for FragMAX operations. The library is in a constant refinement cycle and is periodically updated, depending on the fragment performance in screening experiments, new chemotypes in a commercial chemical space and platform updates. FragMAXlib compounds are selected on the basis of their fragment-likeness and synthetic tractability. Currently, the library has 110 entries.
+
 | Descriptor        | min               | max               | mean              |
 |:------------------|:------------------|-------------------|-------------------|
 | Mw                |108                | 269               | 158               |
