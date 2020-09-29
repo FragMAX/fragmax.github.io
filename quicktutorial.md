@@ -94,8 +94,12 @@ FragMAXapp will look for data in the user's directory matching the following cri
 | FragmentID        | ```- _ , / " " * [](){} ```|
 |Overall            | The final combination cannot be the same|
 
-PrtK-XtalFragScreen-A01
-{: .alert .alert-success}
 
-PrtK_XtalFragScreen.A01
-{: .alert .alert-danger}
+Examples:
+
+| Right     | PrtK-XtalFragScreen-A01 |
+|           | PrtK-XtalFragScreen-0001|
+|-----------|-------------------------|
+| Wrong     | PrtK_XtalFragScreen.A01 |
+|           | PrtK XtalFragScreen-A01 |
+|           | PrtKXtalFragScreenA01   |
