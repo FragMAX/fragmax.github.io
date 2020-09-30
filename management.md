@@ -21,7 +21,3 @@ Clicking INFO will bring the dataset and data collection page. In this page it i
 ![info3](https://raw.githubusercontent.com/FragMAX/fragmax.github.io/master/assets/img/info3.png)
 ![info4](https://raw.githubusercontent.com/FragMAX/fragmax.github.io/master/assets/img/info4.png)
 
-
-
-# Data analysis
-
