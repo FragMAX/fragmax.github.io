@@ -1,10 +1,7 @@
 ---
 layout: default
-description: FragMAXapp input file examples
+title: FragMAXapp
+description: Exporting your data
 ---
 
-## Welcome to another page
-
-_yay_
-
-[back](./)
+***

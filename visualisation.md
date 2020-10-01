@@ -1,10 +1,8 @@
 ---
 layout: default
-description: FragMAXapp supported methods
+title: FragMAXapp
+description: Data visualisation
 ---
 
-## Welcome to another page
+***
 
-_yay_
-
-[back](./)
