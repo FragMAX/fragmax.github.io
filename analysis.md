@@ -6,6 +6,10 @@ description: Project Management and Data Analysis
 
 ***
 
+* [Data analysis](#data-analysis) 
+    * [Custom paramteres](#custom-parameters)
+    * [Pipedream] (#pipedream)
+* [PanDDA] (#pandda)
 # Data analysis
 
 FragMAXapp offers a variety of pipelines for data analysis. The options are presented in the _Data analysis_ tab. 
@@ -39,8 +43,39 @@ Once the minimum information is provided to a give step, the referred button wil
 | **Ligand fitting**        |**_Software_**         | Select the checkboxes                  | Uses the method on all selected datasets                  | Every new analysis will replace previous results                                                                                  | Yes      |
 |                           |**_SMILES to CIF_**    | Select the option                      | Convert fragment SMILES to CIF using selected method      | Fragments can be updated through [Library view](https://fragmax.github.io/loginsetup.html#library-definitions)                    | Yes      |
 
+This options can be parsed in the screen below
 
 ![HOME](https://raw.githubusercontent.com/FragMAX/fragmax.github.io/master/assets/img/analysis4.png)
+
+## Custom parameters
+
+For each method, custom paramters are available. 
+
+The tabs on the bottom of the page will provide some extra pre-selected customisations and one extra field, **Custom parameters**. 
+
+In the Custom Parameters, it is possible to pass anything supported by the method.
+
+´´´
+Example:
+
+DIMPLE 
+* -M0 
+    * will be used to do Molecular replacement always
+* -M0 --slow 
+    * will do MR and extra cycles of refinement
+´´´
+
+NOTE: The custom paramteres should be passed as they would in the command line version of the method. Links for the method documentation is provided below the input box.
+
+
+## Pipedream 
+
+Selecting GlobalPhasing Pipedream will open the referred tab for extra inputs. 
+
+Please not that information passed to Pipedream will **ONLY** come from the tab. Dataset selection works as usual, from the top checkboxes selection. 
+
+
+# PanDDA
 
 ![HOME](https://raw.githubusercontent.com/FragMAX/fragmax.github.io/master/assets/img/analysis3.png)
 
