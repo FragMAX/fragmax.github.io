@@ -55,7 +55,7 @@ The tabs on the bottom of the page will provide some extra pre-selected customis
 
 In the Custom Parameters, it is possible to pass anything supported by the method.
 
-´´´
+```
 Example:
 
 DIMPLE 
@@ -63,7 +63,7 @@ DIMPLE
     * will be used to do Molecular replacement always
 * -M0 --slow 
     * will do MR and extra cycles of refinement
-´´´
+```
 
 NOTE: The custom paramteres should be passed as they would in the command line version of the method. Links for the method documentation is provided below the input box.
 
