@@ -20,3 +20,14 @@ On the _top left_ corner, checkboxes gives a quick selection of datasets as foll
 |Process new datasets|Selects all datasets that is marked in *yellow* in the home page (A.K.A. datasets that was not analysed previously|
 |Select ALL datasets|This option will mark all checkboxes in the _Selected datasets_ tab |
 |No checkbox checked|The datasets selected in the _Selected datasets_ will be used|
+
+
+![HOME](https://raw.githubusercontent.com/FragMAX/fragmax.github.io/master/assets/img/analysis2.png)
+
+
+![HOME](https://raw.githubusercontent.com/FragMAX/fragmax.github.io/master/assets/img/analysis3.png)
+
+
+![HOME](https://raw.githubusercontent.com/FragMAX/fragmax.github.io/master/assets/img/analysis4.png)
+
+
