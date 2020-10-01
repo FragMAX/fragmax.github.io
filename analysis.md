@@ -8,8 +8,8 @@ description: Project Management and Data Analysis
 
 * [Data analysis](#data-analysis) 
     * [Custom paramteres](#custom-parameters)
-    * [Pipedream] (#pipedream)
-* [PanDDA] (#pandda)
+    * [Pipedream](#pipedream)
+* [PanDDA](#pandda)
 # Data analysis
 
 FragMAXapp offers a variety of pipelines for data analysis. The options are presented in the _Data analysis_ tab. 
