@@ -16,4 +16,4 @@ description: PanDDA
 
 ![](https://raw.githubusercontent.com/FragMAX/fragmax.github.io/master/assets/img/pandda3.png)
 
-![](https://raw.githubusercontent.com/FragMAX/fragmax.github.io/master/assets/img/pandda.png)
+![](https://raw.githubusercontent.com/FragMAX/fragmax.github.io/master/assets/img/pandda5.png)
