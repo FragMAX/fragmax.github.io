@@ -23,9 +23,11 @@ Processing = autoPROC
 Refinement = DIMPLE
 
 Output:
-All results from the combination autoPROC processed and DIMPLE refined will be used. If the a given dataset failied to be analysed by this combination, two options are possible:
+All results from the combination autoPROC processed and DIMPLE refined will be used. 
+If the a given dataset failied to be analysed by this combination, two options are possible:
 
-1. If complete results = YES: FragPLEX method will be triggered, looking for results availables from other method combinations.
+1. If complete results = YES: FragPLEX method will be triggered, l
+    ooking for results availables from other method combinations.
 2. If complete results = NO: Missing datasets will be ignored.
 ```
 
