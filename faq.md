@@ -38,3 +38,9 @@ If you want to use in for commercial purpose, please contact the developers or
 MAX IV Industrial Liason Office to arrange a licence.   
 ```
 
+### How to cite FragMAXapp use?
+
+```
+Answer: Our manuscript will be available soon.
+```
+
