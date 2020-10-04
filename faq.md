@@ -6,6 +6,18 @@ description: Frequently Asked Questions
 
 ***
 
+### Where FragMAXapp is currently available?
+
+```
+Currently at MAX IV Laboratory and HZB BESSY II.
+
+MAX IV Laboratory
+[https://www.maxiv.lu.se/fragmax/] FragMAX
+
+HZB BESSY II 
+[https://www.helmholtz-berlin.de/forschung/oe/np/gmx/fragment-screening/index_en.html] Fragment screening at HZB
+
+
 ### What if I don't have/don't want to disclose SMILES for my library, can I still use FragMAXapp?
 
 ```
