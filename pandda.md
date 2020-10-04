@@ -26,10 +26,36 @@ Output:
 All results from the combination autoPROC processed and DIMPLE refined will be used. 
 If the a given dataset failied to be analysed by this combination, two options are possible:
 
-1. If complete results = YES: FragPLEX method will be triggered, l
-    ooking for results availables from other method combinations.
+1. If complete results = YES: FragPLEX method will be triggered, 
+    looking for results availables from other method combinations.
 2. If complete results = NO: Missing datasets will be ignored.
 ```
+
+Options for generating the ground state model
+```
+Four options are available:
+
+GSM = Ground State Model
+
+1. Use know Apo structures
+    Datasets with _Apo_ in the name will be used to create the GSM    
+2. Use Cryo/DMSO datasets
+    Datasets marked as _opt_ or _DMSO_ will be used to create the GSM
+3. Reprocess using dataset without peaks in Z-map
+    If a previous run is available, FragMAXapp will read the inspection log and use 
+    all datasets without any events to build the GSM
+4. Opening the dataset selection in the top of the page (the same for cheery pick 
+datasets for processing) and marking datasets will send the selection to PanDDA. This
+option will replace options 1, 2 or 3. To ignore this behaviour, please make sure the 
+box _Process all datasets_ is marked.
+
+
+NOTE: For all these options, if there is not enough datasets to create the GSM, the selection 
+will be ingored and PanDDA will define the datasets by itself. 
+Users can overwrite this behaviour by changing the minimum number of datasets to build GSM. 
+This option is availble in the middle colum (PanDDA analysis options) 
+```
+
 
 ## PanDDA analyse
 
