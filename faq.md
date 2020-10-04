@@ -12,12 +12,12 @@ description: Frequently Asked Questions
 Currently at MAX IV Laboratory and HZB BESSY II.
 
 MAX IV Laboratory
-[https://www.maxiv.lu.se/fragmax/] FragMAX
+https://www.maxiv.lu.se/fragmax/
 
 HZB BESSY II 
-[https://www.helmholtz-berlin.de/forschung/oe/np/gmx/fragment-screening/index_en.html] Fragment screening at HZB
+https://www.helmholtz-berlin.de/forschung/oe/np/gmx/fragment-screening/index_en.html
 
-
+```
 ### What if I don't have/don't want to disclose SMILES for my library, can I still use FragMAXapp?
 
 ```
