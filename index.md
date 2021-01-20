@@ -22,7 +22,7 @@ Here is a non-exhaustive alphabetically-ordered list of software used by FragMAX
 |autoBUSTER|[Global Phasing](https://www.globalphasing.com/)|- [Documentation](https://www.globalphasing.com/buster/)<br>- [How to cite](http://www.globalphasing.com/buster/wiki/index.cgi?BusterCite)|
 |autoPROC|[Global Phasing](https://www.globalphasing.com/)|- [Documentation](https://www.globalphasing.com/autoproc/)<br>- [How to cite](https://www.globalphasing.com/autoproc/wiki/index.cgi?CitingAutoPROC)|
 |CCP4 suite|[CCP4](https://www.ccp4.ac.uk/)|[How to cite](http://legacy.ccp4.ac.uk/html/REFERENCES.html)|
-|Crystal Shifter|[OxfordLabTech](https://oxfordlabtech.com/shifter/)|-|
+|Crystal Shifter|[OxfordLabTech](https://oxfordlabtech.com/shifter/)|[How to cite](https://scripts.iucr.org/cgi-bin/paper?tz5103)|
 |DIALS|[DIALS](https://dials.github.io/)|[How to cite](http://scripts.iucr.org/cgi-bin/paper?S2059798317017235)|
 |DIMPLE|[DIMPLE](https://ccp4.github.io/dimple/)|[How to cite](http://cloud.ccp4.ac.uk/manuals/html-taskref/doc.task.Dimple.html)|
 |fspipeline|[FS @ HZB](https://www.helmholtz-berlin.de/forschung/oe/np/gmx/fragment-screening/index_en.html)|[How to cite](https://pubmed.ncbi.nlm.nih.gov/27452405/)|
