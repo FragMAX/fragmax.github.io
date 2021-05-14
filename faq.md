@@ -55,6 +55,6 @@ MAX IV Industrial Liason Office to arrange a licence.
 ```
 Answer: Our publication is:
 FragMAXapp: crystallographic fragment-screening data-analysis and project-management system
-https://journals.iucr.org/d/issues/2021/06/00/tz5106/tz5106.pdf.
+https://journals.iucr.org/d/issues/2021/06/00/tz5106/tz5106.pdf
 ```
 
